@@ -51,7 +51,7 @@ outputs = session.run(output_names=[outputs_name], input_feed=inputs)
 
 This is a sentiment analysis model based on positive and negative reviews of the IMDB data set provided in Kaggle in which we utilise Bert pretrained model to train the neural network and achieve an accuracy of 86% on 5 epochs the accuracy can further be improved by increasing the number of epochs or by tuning the neural network activation functions. 
 
-PS. Feel free to tune with the model and provide better results. 
+PS.Feel free to tune with the model and provide better results. 
 
 Before using the bert base uncased model, make sure you go through the hugging face documentation and download the required .bin,.onnx files that are the model files and download the vocab file by cloning the bert base uncased repo.
 
